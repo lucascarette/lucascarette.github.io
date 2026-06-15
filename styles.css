@@ -96,7 +96,7 @@ section > .content-container h2 {
   font-size: 1.75rem;
 }
 
-#about .content-container p {
+section#about > .content-container > p {
   text-align: justify;
 }
 
