@@ -203,26 +203,6 @@ section#about > .content-container > p {
   background: #eff6ff;
 }
 
-/* ---- Contact link ---- */
-
-.contact-link {
-  display: inline-block;
-  padding: 0.15rem 0.5rem;
-  background: #eff6ff;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  color: var(--primary);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 0.9rem;
-  transition: border-color 0.2s, background 0.2s;
-}
-
-.contact-link:hover {
-  border-color: var(--primary);
-  background: #dbeafe;
-}
-
 /* ---- Home action button ---- */
 
 .home-actions {
