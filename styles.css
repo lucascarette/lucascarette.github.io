@@ -223,6 +223,95 @@ section#about > .content-container > p {
   background: #dbeafe;
 }
 
+/* ---- Home action button ---- */
+
+.home-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.btn-pill {
+  display: inline-block;
+  padding: 0.55rem 1.5rem;
+  background: var(--primary);
+  color: #ffffff;
+  border: 2px solid var(--primary);
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: background 0.2s, color 0.2s, transform 0.15s;
+}
+
+.btn-pill:hover {
+  background: transparent;
+  color: var(--primary);
+  transform: translateY(-1px);
+}
+
+/* ---- Skills ---- */
+
+.skills-group {
+  margin-bottom: 1.5rem;
+}
+
+.skills-group:last-child {
+  margin-bottom: 0;
+}
+
+.skills-group h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: var(--text);
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.skill-tag:hover {
+  border-color: var(--primary);
+  background: #eff6ff;
+}
+
+/* ---- Footer links ---- */
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links a {
+  display: inline-block;
+  transition: opacity 0.2s;
+}
+
+.footer-links a:hover {
+  opacity: 0.7;
+}
+
+.footer-links img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
 /* ---- Footer ---- */
 
 footer {
@@ -234,24 +323,13 @@ footer {
   border-top: 1px solid var(--border);
 }
 
-.social-links {
+.footer-links {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 1.5rem;
-}
-
-.social-links a {
-  display: inline-block;
-  transition: opacity 0.2s;
-}
-
-.social-links a:hover {
-  opacity: 0.7;
-}
-
-.social-links img {
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
 }
 
 /* ---- Responsive ---- */
